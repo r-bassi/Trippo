@@ -1,0 +1,28 @@
+{
+    "name": "trippo",
+    "version": "1.0.0",
+    "description": "Trippo, a travel itinerary application",
+    "main": "backend/dist/app.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "cd backend && npm install && npm start",
+      "build": "bash build.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/r-bassi/Trippo.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/r-bassi/Trippo/issues"
+    },
+    "homepage": "https://github.com/r-bassi/Trippo#readme",
+    "engines": {
+      "node": "14.15.4"
+    }
+  }
+  
