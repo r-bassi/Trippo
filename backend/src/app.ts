@@ -20,7 +20,7 @@ mongoose
   })
   .then(() => {
     const app = express();
-    const PORT = process.env.PORT || 4000;
+    const PORT = parseInt(process.env.PORT || '4000', 10);
     const corsOptions = {
       origin: process.env.ORIGIN,
       credentials: true,
@@ -86,5 +86,8 @@ mongoose
       }
     );
 
-    app.listen(PORT, () => console.log("Listening on port " + PORT));
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+
   });
