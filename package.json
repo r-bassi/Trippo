@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "Trippo, a travel itinerary application",
   "main": "backend/dist/app.js",
-  "devDependencies": {
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd backend && npm install && npm start",
@@ -23,5 +21,8 @@
   "homepage": "https://github.com/r-bassi/Trippo#readme",
   "engines": {
     "node": "19.6.1"
+  },
+  "devDependencies": {
+    "react": "^17.0.2"
   }
 }
