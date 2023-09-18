@@ -26,7 +26,5 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@mui/icons-material": "^5.14.9",
-    "@mui/material": "^5.14.9"
   }
 }
