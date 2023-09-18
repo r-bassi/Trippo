@@ -23,7 +23,5 @@
     "node": ">=18.17.1"
   },
   "dependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
   }
 }
