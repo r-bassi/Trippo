@@ -4,7 +4,6 @@
   "description": "Trippo, a travel itinerary application",
   "main": "backend/dist/app.js",
   "devDependencies": {
-    "typescript": "^5.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
