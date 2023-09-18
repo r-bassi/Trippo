@@ -23,7 +23,6 @@
     "node": "19.6.1"
   },
   "devDependencies": {
-    "react": "^17.0.2"
   },
   "dependencies": {
   }
