@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/r-bassi/Trippo#readme",
   "engines": {
-    "node": "19.6.1"
+    "node": ">=18.17.1"
   },
   "devDependencies": {
   },
